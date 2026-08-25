@@ -8,7 +8,7 @@ I build the backend logic that sits between two-sided systems that don't trust e
 matching engines, wallets, and state machines where money and timing have to reconcile correctly.
 
 [![Email](https://img.shields.io/badge/Email-youssifsalama01%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youssifsalama01@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-youssif--salama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/youssif-salama)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-youssif--salama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/youssif-salama](https://www.linkedin.com/in/youssif-salama-039506244/))
 [![Location](https://img.shields.io/badge/Cairo%2C_Egypt-Remote_Worldwide-2E8B57?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
