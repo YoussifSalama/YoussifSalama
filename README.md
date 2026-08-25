@@ -8,7 +8,7 @@ I build the backend logic that sits between two-sided systems that don't trust e
 matching engines, wallets, and state machines where money and timing have to reconcile correctly.
 
 [![Email](https://img.shields.io/badge/Email-youssifsalama01%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youssifsalama01@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-youssif--salama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/youssif-salama](https://www.linkedin.com/in/youssif-salama-039506244/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-youssif--salama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssif-salama-039506244/)
 [![Location](https://img.shields.io/badge/Cairo%2C_Egypt-Remote_Worldwide-2E8B57?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
@@ -90,26 +90,29 @@ A logistics marketplace connecting customers who need truck transport with drive
 
 <br>
 
-### 🏢 Trendlix — Agency Platform
-**Role:** Full Stack Developer (solo on features)
+### 🤖 Plato — AI Recruiting & Hiring Platform
+**Role:** AI Integration Engineer &nbsp;|&nbsp; 🔗 [agency.platohiring.com](https://agency.platohiring.com/)
 
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Vite](https://img.shields.io/badge/-React%20%2B%20Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis%2FBullMQ-DC382D?style=flat-square&logo=redis&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/-ElevenLabs%20TTS-000000?style=flat-square)
 
-Trendlix's own agency/company platform — the studio's marketing site and content-ops tool behind the other builds in this portfolio.
+An AI-powered hiring platform with two sides — agencies sourcing and screening candidates, and candidates applying and interviewing — plus an admin layer and a Chrome extension for resume capture.
 
-- Manages blog, testimonials, team bios, services, job postings, portfolio/case-studies, news, contact forms, and SEO metadata for the public site.
-- **CMS (`trendlix-dashboard`):** React + Vite admin with a rich block editor (Tiptap, react-gutenberg, Monaco code editor), custom theming, scheduling/date pickers, hotkey-driven UX.
-- **Backend (`trendlix-backend-new`):** Node/Express + MongoDB (Mongoose), JWT auth, rate limiting, modular controller/router/model architecture.
-- 🏆 **Highlight:** built as an internal agency CMS and reused as the template for client dashboards — AMF, Sci-Fi, and Wasel all share the same Tiptap/Vite admin pattern.
-- Implemented full bilingual localisation (EN/AR) with RTL support using next-intl, and led a full codebase restructuring into clean architecture that cut onboarding time for new team members.
+- Two distinct resume pipelines: an **agency upload pipeline** (PDF/DOCX → BullMQ job → parse → OpenAI batch analysis → structured AI output written to the DB) and a **connector ingestion pipeline** (REST/S3/signed-URL/DB sources → multi-stage discover → download → parse → AI-snapshot → score pipeline).
+- Built OpenAI key rotation so the platform round-robins across multiple API keys under load instead of hammering a single key.
+- Implemented a subscription/quota system (intro/base/pro/enterprise plans) enforced transactionally to prevent race conditions on concurrent usage.
+- Integrated ElevenLabs TTS for AI-driven candidate calls, plus Stripe billing and a Chrome extension that authenticates against the agency dashboard and talks to the backend API.
+- **Backend:** NestJS + Prisma, Redis-backed BullMQ queues across five dedicated workers, JWT guards separating agency/candidate/admin/anonymous-session access, Swagger docs split by audience (`/api/agency`, `/api/candidate`).
+- 🏆 **Highlight:** the pipeline architecture explicitly separates synchronous AI scoring (fast, per-candidate) from batched AI analysis (cost-efficient, bulk) — a deliberate latency-vs-cost tradeoff baked into the system design.
 
 <br>
 
 ### 🏗️ AMF — Corporate Website with Custom CMS
-**Role:** Full Stack Developer (team)
+**Role:** Full Stack Developer (team) &nbsp;|&nbsp; 🔗 [amf.com.eg](http://amf.com.eg/en)
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
@@ -128,7 +131,7 @@ Corporate/industrial site for an Arabtec-linked client.
 <br>
 
 ### 🚪 Opindoo — Product Website & Dashboard
-**Role:** Full Stack Developer (team)
+**Role:** Full Stack Developer (team) &nbsp;|&nbsp; 🔗 [opindoo.com](https://opindoo.com/en)
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
@@ -164,7 +167,7 @@ Edutainment company site — nursery enrollment, school-trip bookings, land/plot
 <br>
 
 ### 🛍️ Hatly Store — E-Commerce Platform
-**Role:** Full Stack Developer (team)
+**Role:** Full Stack Developer (team) &nbsp;|&nbsp; 🔗 [hatlystore.com](https://www.hatlystore.com/) *(current live site — new version in development)*
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![JWT](https://img.shields.io/badge/-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
@@ -180,7 +183,7 @@ A Next.js e-commerce storefront: product browsing, cart, checkout flow, user acc
 <br>
 
 ### 💳 Lite Pay — E-Wallet Platform
-**Role:** Backend Developer (team)
+**Role:** Backend Developer (team) &nbsp;|&nbsp; 🔗 [litepay-eg.net](https://www.litepay-eg.net)
 
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
@@ -235,6 +238,6 @@ Graduation Project: Tech Bridge — AI-powered social and jobs platform, highest
 ### 📫 Let's talk
 
 [![Email](https://img.shields.io/badge/Email_me-youssifsalama01%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youssifsalama01@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/youssif-salama)
+[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssif-salama-039506244/)
 
 </div>
