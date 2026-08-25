@@ -149,7 +149,7 @@ Corporate/industrial site for an Arabtec-linked client.
 <br>
 
 ### 🎨 Sci-Fi — Edutainment Booking & CMS Platform
-**Role:** Full Stack Developer (team)
+**Role:** Full Stack Developer (team) &nbsp;|&nbsp; 🔗 [scifi-site.vercel.app](https://scifi-site.vercel.app/en)
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
