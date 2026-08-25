@@ -1,457 +1,240 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Youssif Salama — Portfolio</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+<div align="center">
 
-  :root{
-    --bg: #0B1220;
-    --bg-card: #121B2E;
-    --bg-card-hover: #16233B;
-    --line: #24314A;
-    --amber: #F2A93B;
-    --amber-dim: #B67A22;
-    --text: #EDEFF3;
-    --muted: #8B93A7;
-    --muted-2: #5C6885;
-  }
+# Hi, I'm Youssif Salama 👋
 
-  *{ margin:0; padding:0; box-sizing:border-box; }
+### Full-Stack Engineer · Marketplaces, Fintech & AI Integration
 
-  html,body{
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'Inter', sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
+I build the backend logic that sits between two-sided systems that don't trust each other by default —
+matching engines, wallets, and state machines where money and timing have to reconcile correctly.
 
-  a{ color: inherit; text-decoration: none; }
+[![Email](https://img.shields.io/badge/Email-youssifsalama01%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youssifsalama01@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-youssif--salama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/youssif-salama)
+[![Location](https://img.shields.io/badge/Cairo%2C_Egypt-Remote_Worldwide-2E8B57?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
-  ::selection{ background: var(--amber); color: #0B1220; }
+</div>
 
-  :focus-visible{
-    outline: 2px solid var(--amber);
-    outline-offset: 3px;
-  }
+<br>
 
-  .wrap{
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 28px;
-  }
+## 🧩 About Me
 
-  /* ---------- HERO ---------- */
-  .hero{
-    padding: 96px 0 64px;
-    border-bottom: 1px solid var(--line);
-    position: relative;
-    overflow: hidden;
-  }
+Full-stack developer shipping production systems across **fintech, marketplaces, and AI-powered products**. I've built a logistics marketplace backend (supply/demand matching, offer handling, trip lifecycle, and the financial edge cases that come with real money and real timing), a fintech e-wallet with real-time transaction processing, an AI-powered social platform on the MERN stack (**98/100** at graduation), and a string of bilingual, CMS-driven Next.js platforms. I also integrate **OpenAI GPT-4, ElevenLabs Voice AI, and Google Gemini** into production systems with real latency and cost constraints, and spent a year teaching backend engineering to 30+ developers per cohort.
 
-  .hero::before{
-    content: "";
-    position: absolute;
-    top: -120px;
-    right: -120px;
-    width: 420px;
-    height: 420px;
-    background: radial-gradient(circle, rgba(242,169,59,0.10) 0%, rgba(242,169,59,0) 70%);
-    pointer-events: none;
-  }
+📍 Cairo, Egypt &nbsp;·&nbsp; 🌍 Open to Full-Time Remote (Worldwide) &nbsp;·&nbsp; ⚡ Immediate Start &nbsp;·&nbsp; ✅ Military Service Exempt
 
-  .eyebrow{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 13px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--amber);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 22px;
-  }
+<br>
 
-  .eyebrow::before{
-    content: "";
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--amber);
-    box-shadow: 0 0 0 4px rgba(242,169,59,0.15);
-  }
+## 🛠️ Tech Stack
 
-  .hero h1{
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    font-size: clamp(36px, 6vw, 58px);
-    line-height: 1.05;
-    letter-spacing: -0.02em;
-    max-width: 780px;
-  }
+<div align="center">
 
-  .hero h1 span{ color: var(--muted-2); }
+**Backend**
 
-  .hero p.lede{
-    margin-top: 22px;
-    max-width: 640px;
-    font-size: 17px;
-    line-height: 1.65;
-    color: var(--muted);
-  }
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
 
-  .hero-links{
-    margin-top: 34px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
+**Frontend**
 
-  .pill-link{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 13px;
-    padding: 10px 16px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    color: var(--text);
-    transition: border-color .18s ease, color .18s ease, transform .18s ease;
-  }
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-  .pill-link:hover{
-    border-color: var(--amber);
-    color: var(--amber);
-    transform: translateY(-1px);
-  }
+**Data & Infra**
 
-  .pill-link.primary{
-    background: var(--amber);
-    color: #0B1220;
-    border-color: var(--amber);
-    font-weight: 500;
-  }
-  .pill-link.primary:hover{
-    color: #0B1220;
-    filter: brightness(1.08);
-  }
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-  /* ---------- SECTION LABEL ---------- */
-  .section-label{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 13px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--muted-2);
-    padding: 56px 0 22px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  .section-label::after{
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: var(--line);
-  }
+**AI Integration**
 
-  /* ---------- GRID ---------- */
-  .grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
-    padding-bottom: 40px;
-  }
+![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs_Voice_AI-000000?style=flat-square)
 
-  @media (max-width: 720px){
-    .grid{ grid-template-columns: 1fr; }
-  }
+</div>
 
-  .card{
-    display: flex;
-    flex-direction: column;
-    background: var(--bg-card);
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    overflow: hidden;
-    transition: border-color .2s ease, transform .2s ease, background .2s ease;
-  }
+<br>
 
-  a.card:hover, a.card:focus-visible{
-    border-color: var(--amber-dim);
-    background: var(--bg-card-hover);
-    transform: translateY(-3px);
-  }
+## 🚀 Projects
 
-  .card-visual{
-    height: 148px;
-    background:
-      radial-gradient(circle at 85% 0%, rgba(242,169,59,0.08), transparent 55%),
-      repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0 1px, transparent 1px 26px);
-    border-bottom: 1px solid var(--line);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
+<br>
 
-  .card-visual svg{ width: 100%; height: 100%; }
+### 🚚 Wasel — Logistics & Fleet Marketplace
+**Role:** Backend Developer &nbsp;|&nbsp; 🔗 [wasel-fleet.com](https://wasel-fleet.com/) &nbsp;|&nbsp; ⭐ Flagship project
 
-  .card-body{
-    padding: 22px 22px 24px;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-  }
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis%2FBullMQ-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Socket.io](https://img.shields.io/badge/-Socket.IO-010101?style=flat-square&logo=socket.io&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![AWS S3](https://img.shields.io/badge/-AWS%20S3-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Twilio](https://img.shields.io/badge/-Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
 
-  .card-top{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 6px;
-  }
+A logistics marketplace connecting customers who need truck transport with drivers who bid offers, plus a full admin back office.
 
-  .card h3{
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 19px;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-  }
+- Customer requests a shipment → drivers submit offers → trip lifecycle tracked in real time.
+- Built the state machine tying trip status to financial logic: timing-dependent refunds, mid-trip cancellations, and wallet-balance-to-transaction-log reconciliation.
+- Admin back office manages users, drivers, trips, storage owners, finance/payouts, identity verification, blog content, analytics, and platform settings.
+- **Backend (`wasel-backend`):** NestJS + Prisma + PostgreSQL, Redis-backed job queues (BullMQ), Socket.IO gateways for live trip/notification updates, S3 file storage, 2FA/OTP (otplib), SMS via Twilio, email via Nodemailer/Handlebars, Excel export, Swagger docs.
+- **Dashboard (`wasel-dashboard`):** React + Vite, Tiptap + Monaco editors, real-time updates via Socket.IO client, Recharts.
+- **Frontend (`wasel-fe`):** Next.js, i18n, GSAP + Lenis smooth scroll, Lottie, Zustand.
+- 🏆 **Highlight:** the only project in the portfolio running a full NestJS + PostgreSQL + Redis stack with real-time features and 2FA — production-grade backend engineering vs. the simpler Express/MongoDB APIs elsewhere.
 
-  .card .arrow{
-    flex-shrink: 0;
-    color: var(--muted-2);
-    transition: color .2s ease, transform .2s ease;
-  }
-  a.card:hover .arrow{ color: var(--amber); transform: translate(2px,-2px); }
+<br>
 
-  .card .role{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12.5px;
-    color: var(--amber-dim);
-    margin-bottom: 12px;
-  }
+### 🏢 Trendlix — Agency Platform
+**Role:** Full Stack Developer (solo on features)
 
-  .card p.desc{
-    font-size: 14.5px;
-    line-height: 1.6;
-    color: var(--muted);
-    flex: 1;
-  }
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Vite](https://img.shields.io/badge/-React%20%2B%20Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-  .tags{
-    margin-top: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
+Trendlix's own agency/company platform — the studio's marketing site and content-ops tool behind the other builds in this portfolio.
 
-  .tag{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    padding: 4px 9px;
-    border-radius: 5px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid var(--line);
-    color: var(--muted);
-  }
+- Manages blog, testimonials, team bios, services, job postings, portfolio/case-studies, news, contact forms, and SEO metadata for the public site.
+- **CMS (`trendlix-dashboard`):** React + Vite admin with a rich block editor (Tiptap, react-gutenberg, Monaco code editor), custom theming, scheduling/date pickers, hotkey-driven UX.
+- **Backend (`trendlix-backend-new`):** Node/Express + MongoDB (Mongoose), JWT auth, rate limiting, modular controller/router/model architecture.
+- 🏆 **Highlight:** built as an internal agency CMS and reused as the template for client dashboards — AMF, Sci-Fi, and Wasel all share the same Tiptap/Vite admin pattern.
+- Implemented full bilingual localisation (EN/AR) with RTL support using next-intl, and led a full codebase restructuring into clean architecture that cut onboarding time for new team members.
 
-  .card-flag{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    color: var(--muted-2);
-    margin-top: 14px;
-  }
+<br>
 
-  /* ---------- FOOTER ---------- */
-  footer{
-    border-top: 1px solid var(--line);
-    padding: 40px 0 60px;
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-  footer .muted{ color: var(--muted-2); font-size: 13px; font-family: 'JetBrains Mono', monospace; }
+### 🏗️ AMF — Corporate Website with Custom CMS
+**Role:** Full Stack Developer (team)
 
-  @media (prefers-reduced-motion: reduce){
-    *{ transition: none !important; }
-  }
-</style>
-</head>
-<body>
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Redux](https://img.shields.io/badge/-Redux%20Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)
+![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-  <div class="wrap">
-    <section class="hero">
-      <div class="eyebrow">Available for remote work</div>
-      <h1>Youssif Salama<br><span>Full-stack engineer — marketplaces, fintech &amp; AI integration.</span></h1>
-      <p class="lede">
-        I build the logic that sits between two-sided systems that don't trust each other by default —
-        matching engines, wallets, and state machines where money and timing have to reconcile correctly.
-        Node.js · NestJS · Next.js · PostgreSQL · MongoDB · OpenAI / ElevenLabs / Gemini integration.
-      </p>
-      <div class="hero-links">
-        <a class="pill-link primary" href="mailto:youssifsalama01@gmail.com">Email me</a>
-        <a class="pill-link" href="https://linkedin.com/in/youssif-salama" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="pill-link" href="#" target="_blank" rel="noopener">GitHub — add your link</a>
-      </div>
-    </section>
+Corporate/industrial site for an Arabtec-linked client.
 
-    <div class="section-label">Projects</div>
+- Company marketing site with content managed through a custom admin CMS.
+- **Frontend (`AMF`):** Next.js, next-intl (i18n), Firebase, GSAP animations, Swiper carousels, Zustand, transactional email via Nodemailer.
+- **CMS (`AMF-CMS`):** React + Vite, Redux Toolkit, full Tiptap suite with collaboration cursors, drag-drop uploads.
+- **Backend (`AMF-CMS-BACKEND`):** Express + MongoDB (Mongoose), Helmet-hardened API.
+- Implemented Next.js SSR and SSG for fast page delivery and strong SEO, with dynamic routing driven entirely by CMS content.
 
-    <div class="grid">
+<br>
 
-      <!-- Wasel -->
-      <a class="card" href="https://wasel-fleet.com/" target="_blank" rel="noopener">
-        <div class="card-visual">
-          <svg viewBox="0 0 400 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 110 L110 60 L200 95 L290 40 L380 75" stroke="#F2A93B" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
-            <circle cx="20" cy="110" r="5" fill="#F2A93B"/>
-            <circle cx="110" cy="60" r="5" fill="#EDEFF3" opacity="0.8"/>
-            <circle cx="200" cy="95" r="5" fill="#EDEFF3" opacity="0.8"/>
-            <circle cx="290" cy="40" r="5" fill="#EDEFF3" opacity="0.8"/>
-            <circle cx="380" cy="75" r="6" fill="#F2A93B"/>
-            <circle cx="380" cy="75" r="11" stroke="#F2A93B" stroke-width="1" opacity="0.4"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <div class="card-top">
-            <h3>Wasel</h3>
-            <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-          <div class="role">Backend Developer · Logistics Marketplace</div>
-          <p class="desc">Connects customers with truck providers. Built the supply/demand matching engine, offer flow, and the trip-lifecycle state machine — including refunds, cancellations, and wallet reconciliation.</p>
-          <div class="tags"><span class="tag">Node.js</span><span class="tag">State Machines</span><span class="tag">Matching Engine</span></div>
-        </div>
-      </a>
+### 🚪 Opindoo — Product Website & Dashboard
+**Role:** Full Stack Developer (team)
 
-      <!-- Lite Pay -->
-      <div class="card">
-        <div class="card-visual">
-          <svg viewBox="0 0 400 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="40" y="44" width="320" height="60" rx="10" stroke="#EDEFF3" stroke-width="2" opacity="0.55"/>
-            <circle cx="310" cy="74" r="14" fill="#F2A93B" opacity="0.9"/>
-            <path d="M40 62 H360" stroke="#EDEFF3" stroke-width="1.5" opacity="0.25"/>
-            <path d="M60 118 L100 118 M130 118 L170 118 M200 118 L240 118" stroke="#F2A93B" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <div class="card-top"><h3>Lite Pay</h3></div>
-          <div class="role">Backend Developer (team) · E-Wallet Platform</div>
-          <p class="desc">Real-time transaction processing, wallet balance tracking, and payment-gateway integration with webhook idempotency to prevent duplicate transactions.</p>
-          <div class="tags"><span class="tag">Node.js</span><span class="tag">WebSockets</span><span class="tag">JWT / RBAC</span></div>
-          <div class="card-flag">Link coming soon</div>
-        </div>
-      </div>
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MUI](https://img.shields.io/badge/-MUI%20%2B%20Radix-007FFF?style=flat-square&logo=mui&logoColor=white)
+![NextAuth](https://img.shields.io/badge/-NextAuth.js-000000?style=flat-square)
 
-      <!-- Tech Bridge -->
-      <div class="card">
-        <div class="card-visual">
-          <svg viewBox="0 0 400 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="90" cy="55" r="6" fill="#EDEFF3" opacity="0.8"/>
-            <circle cx="200" cy="35" r="6" fill="#F2A93B"/>
-            <circle cx="310" cy="60" r="6" fill="#EDEFF3" opacity="0.8"/>
-            <circle cx="140" cy="105" r="6" fill="#EDEFF3" opacity="0.8"/>
-            <circle cx="260" cy="110" r="6" fill="#EDEFF3" opacity="0.8"/>
-            <path d="M90 55 L200 35 M200 35 L310 60 M200 35 L140 105 M200 35 L260 110 M140 105 L260 110" stroke="#F2A93B" stroke-width="1.4" opacity="0.4"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <div class="card-top"><h3>Tech Bridge</h3></div>
-          <div class="role">Full Stack Developer &amp; Team Lead · Graduation Project — 98/100</div>
-          <p class="desc">AI-powered social &amp; job-matching platform. Integrated NLP models for content optimisation and moderation, reaching 94% moderation accuracy.</p>
-          <div class="tags"><span class="tag">MERN</span><span class="tag">NLP / AI</span><span class="tag">Team Lead</span></div>
-          <div class="card-flag">Link coming soon</div>
-        </div>
-      </div>
+"Where windows & doors meets top quality" — a product showcase site for a windows & doors manufacturer/retailer.
 
-      <!-- AMF -->
-      <div class="card">
-        <div class="card-visual">
-          <svg viewBox="0 0 400 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="40" y="30" width="120" height="88" rx="6" stroke="#EDEFF3" stroke-width="1.5" opacity="0.4"/>
-            <rect x="175" y="30" width="185" height="38" rx="6" stroke="#F2A93B" stroke-width="1.8" opacity="0.8"/>
-            <rect x="175" y="80" width="185" height="38" rx="6" stroke="#EDEFF3" stroke-width="1.5" opacity="0.4"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <div class="card-top"><h3>AMF</h3></div>
-          <div class="role">Full Stack Developer (team) · Corporate Website + Custom CMS</div>
-          <p class="desc">Built a custom headless CMS so the client manages all pages and content independently, with Next.js SSR/SSG for fast delivery and strong SEO.</p>
-          <div class="tags"><span class="tag">Next.js</span><span class="tag">Headless CMS</span><span class="tag">SSR/SSG</span></div>
-          <div class="card-flag">Link coming soon</div>
-        </div>
-      </div>
+- Product catalog with gallery and showroom pages, 360°/panoramic product views, quote/contact requests, and admin content management — all in a single Next.js app.
+- Tech: Next.js + Prisma + MongoDB + NextAuth (credentialed admin login), MUI + Radix UI, react-360-view and react-photo-sphere-viewer for immersive product views, Tiptap rich text, i18next, Firebase, Nodemailer.
+- 🏆 **Highlight:** merges storefront and admin into a single codebase using Next.js route groups (`/admin`).
+- Redesigned the corporate site and overhauled the admin dashboard, extending the codebase across frontend UI and backend APIs to improve platform reliability.
 
-      <!-- Trendlix -->
-      <div class="card">
-        <div class="card-visual">
-          <svg viewBox="0 0 400 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="140" cy="74" r="34" stroke="#EDEFF3" stroke-width="1.5" opacity="0.4"/>
-            <circle cx="260" cy="74" r="34" stroke="#F2A93B" stroke-width="1.8" opacity="0.8"/>
-            <text x="128" y="80" fill="#EDEFF3" font-family="JetBrains Mono, monospace" font-size="14" opacity="0.6">EN</text>
-            <text x="244" y="80" fill="#F2A93B" font-family="JetBrains Mono, monospace" font-size="14">AR</text>
-          </svg>
-        </div>
-        <div class="card-body">
-          <div class="card-top"><h3>Trendlix Digital Platform</h3></div>
-          <div class="role">Full Stack Developer (solo on features) · Agency Platform</div>
-          <p class="desc">Bilingual EN/AR platform with full RTL support from a single codebase. Led a restructuring into clean architecture that cut new-hire onboarding time.</p>
-          <div class="tags"><span class="tag">Next.js</span><span class="tag">i18n / RTL</span><span class="tag">Clean Architecture</span></div>
-          <div class="card-flag">Link coming soon</div>
-        </div>
-      </div>
+<br>
 
-      <!-- Arabtec -->
-      <div class="card">
-        <div class="card-visual">
-          <svg viewBox="0 0 400 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="30" y="30" width="150" height="88" rx="6" stroke="#EDEFF3" stroke-width="1.5" opacity="0.4"/>
-            <rect x="200" y="30" width="70" height="40" rx="6" stroke="#F2A93B" stroke-width="1.6" opacity="0.75"/>
-            <rect x="280" y="30" width="80" height="40" rx="6" stroke="#EDEFF3" stroke-width="1.5" opacity="0.4"/>
-            <rect x="200" y="78" width="160" height="40" rx="6" stroke="#EDEFF3" stroke-width="1.5" opacity="0.4"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <div class="card-top"><h3>Arabtec</h3></div>
-          <div class="role">Frontend Developer (team) · Corporate Marketing Site</div>
-          <p class="desc">Pixel-accurate, fully responsive marketing website with animated sections and optimised asset loading across desktop and mobile.</p>
-          <div class="tags"><span class="tag">Next.js</span><span class="tag">Animation</span><span class="tag">Responsive</span></div>
-          <div class="card-flag">Link coming soon</div>
-        </div>
-      </div>
+### 🎨 Sci-Fi — Edutainment Booking & CMS Platform
+**Role:** Full Stack Developer (team)
 
-      <!-- Opindoo -->
-      <div class="card">
-        <div class="card-visual">
-          <svg viewBox="0 0 400 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="55" y="90" width="26" height="30" fill="#EDEFF3" opacity="0.35"/>
-            <rect x="95" y="70" width="26" height="50" fill="#EDEFF3" opacity="0.5"/>
-            <rect x="135" y="50" width="26" height="70" fill="#F2A93B" opacity="0.9"/>
-            <rect x="175" y="64" width="26" height="56" fill="#EDEFF3" opacity="0.5"/>
-            <rect x="215" y="40" width="26" height="80" fill="#F2A93B" opacity="0.6"/>
-            <line x1="45" y1="120" x2="330" y2="120" stroke="#EDEFF3" stroke-width="1" opacity="0.25"/>
-          </svg>
-        </div>
-        <div class="card-body">
-          <div class="card-top"><h3>Opindoo (Alumax)</h3></div>
-          <div class="role">Full Stack Developer (team) · Product Website &amp; Dashboard</div>
-          <p class="desc">Redesigned the corporate site and overhauled the admin dashboard, extending the codebase across frontend UI and backend APIs to improve reliability.</p>
-          <div class="tags"><span class="tag">Next.js</span><span class="tag">Dashboard</span><span class="tag">Full Stack</span></div>
-          <div class="card-flag">Link coming soon</div>
-        </div>
-      </div>
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Zod](https://img.shields.io/badge/-Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-    </div>
+Edutainment company site — nursery enrollment, school-trip bookings, land/plot listings, an online store, and company profile info.
 
-    <footer>
-      <div class="muted">/// built by Youssif Salama</div>
-      <div class="muted">youssifsalama01@gmail.com</div>
-    </footer>
-  </div>
+- Public marketing/booking site plus a full admin CMS and API to manage all of it.
+- **Frontend (`sci-fi-fe`):** Next.js, i18n, GSAP + fullPage.js scroll sections, Swiper/Embla carousels, lightbox galleries, scheduled jobs (node-cron), Tiptap content rendering.
+- **CMS (`sci-fi-cms`):** React + Vite, Monaco code editor, JWT auth, Zod-validated forms, image cropping, Firebase storage.
+- **Backend (`sci-fi-be`):** Express + MongoDB (Mongoose), JWT auth, bcrypt password hashing, Zod schema validation.
 
-</body>
-</html>
+<br>
+
+### 🛍️ Hatly Store — E-Commerce Platform
+**Role:** Full Stack Developer (team)
+
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![JWT](https://img.shields.io/badge/-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Zustand](https://img.shields.io/badge/-Zustand-433E38?style=flat-square)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+A Next.js e-commerce storefront: product browsing, cart, checkout flow, user accounts, order history, and sharing.
+
+- Explicitly built with SOLID principles and OOP patterns for maintainability (single-responsibility components/services).
+- Full bilingual EN/AR support, RTL-aware via next-intl.
+- Tech: Next.js, JWT auth (jsonwebtoken/jwt-decode), Firebase, GSAP, Embla/Swiper carousels, react-hook-form + Zod validation, Tiptap, Zustand, next-themes (dark mode), and a web-scraping utility (cheerio).
+
+<br>
+
+### 💳 Lite Pay — E-Wallet Platform
+**Role:** Backend Developer (team)
+
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![WebSockets](https://img.shields.io/badge/-WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white)
+
+A secure e-wallet platform with real-time transaction processing.
+
+- Server-side architecture for account management, wallet balance tracking, and transaction-history APIs.
+- Real-time WebSocket endpoints for live transaction status — instant feedback on deposits, withdrawals, and P2P transfers.
+- Integrated third-party payment gateway APIs with webhook verification and idempotency to prevent duplicate transactions.
+- OAuth 2.0 and JWT authentication with RBAC and API rate limiting to protect financial endpoints.
+
+<br>
+
+### 🤝 Tech Bridge — AI Social & Jobs Platform
+**Role:** Full Stack Developer & Team Lead &nbsp;·&nbsp; 🎓 Graduation Project — **98/100**
+
+![MERN](https://img.shields.io/badge/-MERN%20Stack-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![AI](https://img.shields.io/badge/-NLP%20%2F%20AI%20Models-412991?style=flat-square&logo=openai&logoColor=white)
+
+An AI-powered social media and job-matching platform with an assistant for content quality and automated moderation.
+
+- Led full-stack development of the platform end to end.
+- Integrated NLP-based AI models for post optimisation and inappropriate-content detection, achieving **94% moderation accuracy** on test datasets.
+- Designed a scalable architecture allowing the AI moderation pipeline to deploy and scale independently from the core social platform.
+
+<br>
+
+## 💼 Experience
+
+| Role | Company | Period |
+|---|---|---|
+| AI Integration Engineer (Part-time) | Plato | Dec 2025 – Present |
+| Full Stack Developer | Trendlix | Aug 2025 – Present |
+| Backend Instructor | MBD Academy | Aug 2024 – Aug 2025 |
+| Front End Vice Head (Mentor) | GDSC · Damanhour University | Oct 2023 – Jul 2024 |
+| Backend Developer (Internship) | Route IT Training Centre | Nov 2023 – Mar 2024 |
+| Front End Developer (Internship) | Minplan International | Apr 2023 – Jul 2023 |
+
+<br>
+
+## 🎓 Education
+
+**B.Sc. Computer Science & Information Technology** — Damanhour University, Egypt &nbsp;·&nbsp; GPA 3.2/4.0
+Graduation Project: Tech Bridge — AI-powered social and jobs platform, highest faculty score (98/100).
+
+<br>
+
+<div align="center">
+
+### 📫 Let's talk
+
+[![Email](https://img.shields.io/badge/Email_me-youssifsalama01%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youssifsalama01@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/youssif-salama)
+
+</div>
